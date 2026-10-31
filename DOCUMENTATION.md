@@ -31,7 +31,7 @@ How Joseph Benipayo's design portfolio is built, what is on each page, and how t
 | 1 | **Nav** | JB monogram, name and title, links to Work / Personal / Experience / Contact, and an "Available for work" button. Stays at the top while scrolling. |
 | 2 | **Hero** | Headline, one-line intro, skill pills, and five Azzurro Meta ads. Clicking the ads opens the Azzurro case study. |
 | 3 | **Principles** | Three short design beliefs. The ← → arrows switch between them. |
-| 4 | **Brand strip** | The brands you've designed for or created, each with a small label underneath. See section 3 below. Each one is clickable. |
+| 4 | **Brand strip** | Two groups: "Worked with" (Azzurro, Cyclelogist) and "Personal projects" (ORDRE, SLIPSTREAM, 0500). Each logo is clickable. See section 3. |
 | 5 | **Client work** (`#work`) | Azzurro website (pink homepage, coupon book, free dinner), the colour A/B test, and the Meta ads. |
 | 6 | **Personal work** (`#personal`) | Cycling story, the three cycling brands (each links to its live website and email), the minimal statics, and two research PDFs. |
 | 7 | **Experience** (`#experience`) | Work history matching the resume, then four skill columns (Design, Build, Media, Tools). |
@@ -40,17 +40,24 @@ How Joseph Benipayo's design portfolio is built, what is on each page, and how t
 
 ## 3. The brand strip, explained
 
-The row under the principles reads "Brands I've designed & created for". It is a logo wall, not a menu.
+The row under the principles is split into two groups so real work and personal work are never mixed.
 
-| Logo | What it is | Label on the site | Clicking it opens |
+**Worked with** (real work experience)
+
+| Logo | What it is | Label | Clicking it opens |
 |---|---|---|---|
-| **Azzurro.** | Real client: Azzurro Hotels, Sydney. Website and Meta ads. | Client · Hotels | Client work section |
-| **ORDRE** | Your own concept brand: luxury cycling atelier | Own brand · Cycling | ORDRE website |
-| **SLIPSTREAM** | Your own concept brand: manga-style cycling crews | Own brand · Cycling | SLIPSTREAM website |
-| **5○○0** (reads "0500") | Your own concept brand: dawn riding kit for hot cities. The two zeros are bike wheels with a rising sun between them. | Own brand · Cycling | 0500 website |
-| **CYCLELOGIST** | Content work: shoots and photo/video editing with teammate Mags | Content · Cycling | Experience section |
+| **Azzurro.** | Client: Azzurro Hotels, Sydney. Website and Meta ads. | Client · Web & Meta ads | Client work section |
+| **CYCLELOGIST** | Content shoots and photo/video editing with teammate Mags | Content & editing | Experience section |
 
-If you copy the strip as text it reads "ORDRESLIPSTREAM50CYCLELOGIST", because the 0500 logo is a drawing (only the 5 and the last 0 are letters) and the logos sit side by side with no spaces. That is normal for a logo row and does not affect visitors or search engines.
+**Personal projects** (your own concept brands, not clients)
+
+| Logo | What it is | Label | Clicking it opens |
+|---|---|---|---|
+| **ORDRE** | Luxury cycling atelier | Concept brand | ORDRE website |
+| **SLIPSTREAM** | Manga-style cycling crews | Concept brand | SLIPSTREAM website |
+| **5○○0** (reads "0500") | Dawn riding kit for hot cities. The two zeros are bike wheels with a rising sun between them. | Concept brand | 0500 website |
+
+If you copy the strip as text the 0500 logo reads "50", because it is a drawing. That is normal and doesn't affect visitors.
 
 ## 4. Folder structure
 
