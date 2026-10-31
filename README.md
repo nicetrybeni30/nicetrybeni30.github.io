@@ -9,11 +9,11 @@ Personal portfolio of Joseph R. Benipayo, web and graphic designer based in Quez
 | Page | What it shows |
 |---|---|
 | `index.html` | Home: client work, personal work, experience, contact |
-
-Full guide: see [DOCUMENTATION.md](DOCUMENTATION.md).
 | `work/azzurro.html` | Azzurro Hotels case study: website, 12 palette tests, 35 Meta ads |
 | `work/statics.html` | Minimal statics series (concept work, AI-assisted) |
 | `projects/*.html` | Live ORDRE, SLIPSTREAM and 0500 websites and emails |
+
+Full guide: see [DOCUMENTATION.md](DOCUMENTATION.md).
 
 ## Structure
 
