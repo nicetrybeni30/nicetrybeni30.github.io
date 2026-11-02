@@ -138,10 +138,13 @@ At the top of `assets/css/styles.css`:
 | `--accent` | Azzurro pink highlights | `#e8195a` |
 
 ### After changing styles.css or main.js
-Raise the `?v=6` number after `styles.css` and `main.js` in every HTML file (for example to `?v=6`). This makes returning visitors download the new version instead of an old cached copy.
+Raise the `?v=7` number after `styles.css` and `main.js` in every HTML file (for example to `?v=7`). This makes returning visitors download the new version instead of an old cached copy.
+
+### Background grid
+The faint vertical lines fade to 18% once you scroll to Experience and Contact (`body.calm` in `styles.css`, set by `main.js`). Change `.18` to adjust.
 
 ### Turn off the animations
-In `index.html`, delete the line `<script src="assets/js/main.js?v=6" defer></script>`. The site still works; only the slider arrows, nav border and fade-ins stop.
+In `index.html`, delete the line `<script src="assets/js/main.js?v=7" defer></script>`. The site still works; only the slider arrows, nav border and fade-ins stop.
 
 ### Mark yourself as not available
 Search for `Available for work` in the HTML files and change or remove that link.

@@ -7,6 +7,13 @@
     window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
   }
 
+  // Fade the background grid on the Experience and Contact sections
+  var exp = document.getElementById('experience');
+  if (exp) {
+    var calm = function () { document.body.classList.toggle('calm', exp.getBoundingClientRect().top < window.innerHeight * 0.6); };
+    window.addEventListener('scroll', calm, { passive: true }); calm();
+  }
+
   // Quote slider
   var slides = document.querySelectorAll('.quote .slides p');
   var count = document.querySelector('.quote .count');

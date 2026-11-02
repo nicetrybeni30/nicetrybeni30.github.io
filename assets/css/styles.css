@@ -17,6 +17,8 @@ img{display:block;max-width:100%}
 /* background grid lines */
 .grid-lines{position:fixed;inset:0;pointer-events:none;display:grid;grid-template-columns:repeat(6,1fr);z-index:0}
 .grid-lines i{border-right:1px solid var(--line)}
+.grid-lines{transition:opacity .5s ease}
+body.calm .grid-lines{opacity:.18}
 .wrap{max-width:1240px;margin:0 auto;padding:0 40px;position:relative;z-index:1}
 .mono{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase}
 em.b{font-style:italic;font-weight:700}
