@@ -122,6 +122,12 @@ em.b{font-style:italic;font-weight:700}
 .res img{object-position:top}
 .res h3{font-family:var(--serif);font-weight:400;font-size:28px;margin-top:18px}
 
+/* youtube thumbnails */
+.yt-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px 20px}
+.yt .frame{aspect-ratio:16/9;border-radius:6px}
+.yt-t{display:block;margin-top:12px;font-size:14px;line-height:1.4;color:var(--fg)}
+.yt-v{display:block;margin-top:6px;color:var(--mute)}
+
 /* code */
 .code-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px 32px}
 .ccard .ptitle h3{font-size:30px}
@@ -212,6 +218,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px}
   .nav nav a:not(.avail):not(.keep){display:none}
   .shots .frame{height:420px} .pal{grid-template-columns:repeat(3,1fr)} .pal-cap{grid-template-columns:repeat(3,1fr)}
   .pal .frame{height:260px} .ads{grid-template-columns:repeat(4,1fr)}
+  .yt-grid{grid-template-columns:repeat(2,1fr)}
   .lrow-p .logos{flex-wrap:wrap;justify-content:flex-start;gap:22px 40px}
   .code-grid{gap:40px 20px} .cfeat{grid-template-columns:1fr;gap:24px} .cfeat .cshot{height:420px} .res3{grid-template-columns:1fr 1fr}
   .exp .row{grid-template-columns:150px 1fr 1fr} .exp .row span:last-child{grid-column:2/4}
@@ -232,7 +239,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px}
   .pal{grid-template-columns:repeat(2,1fr)} .pal-cap{grid-template-columns:repeat(2,1fr)} .pal .frame{height:230px}
   .ads{grid-template-columns:repeat(2,1fr)} .statics{grid-template-columns:repeat(2,1fr)}
   .story{grid-template-columns:1fr;gap:16px} .story .big{font-size:28px}
-  .res{grid-template-columns:1fr} .res .frame{height:240px} .code-grid,.res3{grid-template-columns:1fr} .cshot,.cfeat .cshot{height:260px} .built li{grid-template-columns:1fr;gap:4px} .cvis{height:auto;min-height:260px;gap:18px} .flow{flex-direction:column;align-items:stretch;gap:6px} .flow i{transform:rotate(90deg);text-align:center} .flow span{font-size:16px;padding:10px 12px} .clinks{flex-wrap:wrap}
+  .res{grid-template-columns:1fr} .res .frame{height:240px} .code-grid,.res3{grid-template-columns:1fr} .yt-grid{grid-template-columns:1fr 1fr;gap:20px 12px} .yt-t{font-size:13px} .cshot,.cfeat .cshot{height:260px} .built li{grid-template-columns:1fr;gap:4px} .cvis{height:auto;min-height:260px;gap:18px} .flow{flex-direction:column;align-items:stretch;gap:6px} .flow i{transform:rotate(90deg);text-align:center} .flow span{font-size:16px;padding:10px 12px} .clinks{flex-wrap:wrap}
   .exp .row{grid-template-columns:1fr;gap:4px} .exp .row span:last-child{grid-column:auto}
   .skills{grid-template-columns:1fr 1fr}
   .contact{padding-top:90px;padding-bottom:70px} .contact h2{font-size:48px} .contact .row{flex-direction:column}

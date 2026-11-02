@@ -28,11 +28,12 @@ How Joseph Benipayo's design portfolio is built, what is on each page, and how t
 
 | # | Section | What it does |
 |---|---|---|
-| 1 | **Nav** | JB monogram, name and title, links to Work / Personal / Code / Experience / Contact, and an "Available for work" button. Stays at the top while scrolling. |
+| 1 | **Nav** | JB monogram, name and title, links to Work / Thumbnails / Personal / Code / Experience / Contact, and an "Available for work" button. Stays at the top while scrolling. |
 | 2 | **Hero** | Headline, one-line intro, skill pills, and five Azzurro Meta ads. Clicking the ads opens the Azzurro case study. |
 | 3 | **Principles** | Three short design beliefs. The ← → arrows switch between them. |
 | 4 | **Brand strip** | Two rows: "Worked with" (Azzurro, Cyclelogist) and "Personal projects" (ORDRE, SLIPSTREAM, 0500, Minimal statics, CKD Predict, the Discord bot). Each logo is clickable. See section 3. |
 | 5 | **Client work** (`#work`) | Azzurro website (pink homepage, coupon book, free dinner), the colour A/B test, and the Meta ads. |
+| 5b | **YouTube thumbnails** (`#thumbnails`) | 8 thumbnails you made for The Cyclelogist (2023–2024), each linking to its video, with view counts as of Nov 2026. Images load straight from YouTube (`i.ytimg.com/vi/<video id>/maxresdefault.jpg`). To swap one, change the video id in both the link and the image. |
 | 6 | **Personal work** (`#personal`) | Cycling story, the three cycling brands (each links to its live website and email), and the minimal statics. |
 | 6b | **Code** (`#code`) | Opens with a wide Azzurro card listing what you built (pages, admin analytics dashboard, palette rotation, A/B testing), then four programming projects: CKD Prediction System, Notion × Discord Task Bot, the movie-date invitation page, and Developer Portfolio v1. Each has repo and/or live links, plus a "More on GitHub" link. |
 | 6c | **Research** (`#research`) | Three research PDFs, original Hostel audit first (made for Azzurro), then Luxury and Cycling (AI-assisted). Explains the research-first, AI-assisted way of working. |
@@ -49,7 +50,7 @@ The row under the principles is split into two groups so real work and personal 
 | Logo | What it is | Label | Clicking it opens |
 |---|---|---|---|
 | **Azzurro.** | Client: Azzurro Hotels, Sydney. Website and Meta ads. | Client · Web & Meta ads | Client work section |
-| **CYCLELOGIST** | Content shoots and photo/video editing with teammate Mags | Content & editing | Experience section |
+| **CYCLELOGIST** | Content shoots and photo/video editing with teammate Mags | YouTube thumbnails & editing | Thumbnails section |
 
 **Personal projects** (your own concept brands, not clients)
 
@@ -137,10 +138,10 @@ At the top of `assets/css/styles.css`:
 | `--accent` | Azzurro pink highlights | `#e8195a` |
 
 ### After changing styles.css or main.js
-Raise the `?v=4` number after `styles.css` and `main.js` in every HTML file (for example to `?v=4`). This makes returning visitors download the new version instead of an old cached copy.
+Raise the `?v=5` number after `styles.css` and `main.js` in every HTML file (for example to `?v=5`). This makes returning visitors download the new version instead of an old cached copy.
 
 ### Turn off the animations
-In `index.html`, delete the line `<script src="assets/js/main.js?v=4" defer></script>`. The site still works; only the slider arrows, nav border and fade-ins stop.
+In `index.html`, delete the line `<script src="assets/js/main.js?v=5" defer></script>`. The site still works; only the slider arrows, nav border and fade-ins stop.
 
 ### Mark yourself as not available
 Search for `Available for work` in the HTML files and change or remove that link.
