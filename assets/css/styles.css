@@ -139,6 +139,13 @@ em.b{font-style:italic;font-weight:700}
 .chat{display:flex;flex-direction:column;gap:12px;font-family:var(--mono);font-size:14px}
 .chat p{color:var(--soft)} .chat b{color:var(--mute);font-weight:400;margin-right:10px}
 .chat .botmsg{border-left:2px solid #5865f2;padding-left:10px;color:var(--fg)} .chat .botmsg b{color:#8a95ff}
+.cfeat{grid-column:1/-1;display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}
+.cfeat .cshot{height:460px}
+.cfeat .ptitle{margin-top:0;flex-direction:column;gap:10px}
+.built-h{color:var(--mute);margin-top:24px}
+.built{list-style:none;margin:12px 0 0;padding:0;border-top:1px solid var(--rule)}
+.built li{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule);color:var(--body);font-size:15px;line-height:1.5}
+.built b{font-family:var(--serif);font-weight:400;color:var(--fg);font-size:17px}
 .cdesc{color:var(--body);font-size:16px;line-height:1.6;margin-top:12px}
 .clinks{display:flex;gap:20px;margin-top:14px}
 .more-gh{margin-top:50px;padding-top:20px;border-top:1px solid var(--rule)}
@@ -206,7 +213,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px}
   .shots .frame{height:420px} .pal{grid-template-columns:repeat(3,1fr)} .pal-cap{grid-template-columns:repeat(3,1fr)}
   .pal .frame{height:260px} .ads{grid-template-columns:repeat(4,1fr)}
   .lrow-p .logos{flex-wrap:wrap;justify-content:flex-start;gap:22px 40px}
-  .code-grid{gap:40px 20px} .res3{grid-template-columns:1fr 1fr}
+  .code-grid{gap:40px 20px} .cfeat{grid-template-columns:1fr;gap:24px} .cfeat .cshot{height:420px} .res3{grid-template-columns:1fr 1fr}
   .exp .row{grid-template-columns:150px 1fr 1fr} .exp .row span:last-child{grid-column:2/4}
   .grid4{grid-template-columns:repeat(3,1fr)}
 }
@@ -225,7 +232,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px}
   .pal{grid-template-columns:repeat(2,1fr)} .pal-cap{grid-template-columns:repeat(2,1fr)} .pal .frame{height:230px}
   .ads{grid-template-columns:repeat(2,1fr)} .statics{grid-template-columns:repeat(2,1fr)}
   .story{grid-template-columns:1fr;gap:16px} .story .big{font-size:28px}
-  .res{grid-template-columns:1fr} .res .frame{height:240px} .code-grid,.res3{grid-template-columns:1fr} .cshot{height:260px} .cvis{height:auto;min-height:260px;gap:18px} .flow{flex-direction:column;align-items:stretch;gap:6px} .flow i{transform:rotate(90deg);text-align:center} .flow span{font-size:16px;padding:10px 12px} .clinks{flex-wrap:wrap}
+  .res{grid-template-columns:1fr} .res .frame{height:240px} .code-grid,.res3{grid-template-columns:1fr} .cshot,.cfeat .cshot{height:260px} .built li{grid-template-columns:1fr;gap:4px} .cvis{height:auto;min-height:260px;gap:18px} .flow{flex-direction:column;align-items:stretch;gap:6px} .flow i{transform:rotate(90deg);text-align:center} .flow span{font-size:16px;padding:10px 12px} .clinks{flex-wrap:wrap}
   .exp .row{grid-template-columns:1fr;gap:4px} .exp .row span:last-child{grid-column:auto}
   .skills{grid-template-columns:1fr 1fr}
   .contact{padding-top:90px;padding-bottom:70px} .contact h2{font-size:48px} .contact .row{flex-direction:column}
