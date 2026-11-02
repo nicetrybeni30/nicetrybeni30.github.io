@@ -75,6 +75,8 @@ em.b{font-style:italic;font-weight:700}
 .lrow .logos{justify-content:flex-start;gap:20px 56px;flex-wrap:wrap}
 .lrow-p .logos{flex-wrap:nowrap;justify-content:space-between;gap:24px}
 .lg-serif{font-family:var(--serif);font-size:24px}
+.lg-sans{font-family:var(--sans);font-weight:600;font-size:22px;letter-spacing:-.01em}
+.lg-sans b{font-weight:800}
 .lg-code{font-family:var(--mono);font-size:19px;letter-spacing:-.01em}
 .logos{display:flex;justify-content:space-between;align-items:flex-end;color:var(--mute)}
 .lg{display:flex;flex-direction:column;align-items:flex-start;gap:10px;transition:color .3s}

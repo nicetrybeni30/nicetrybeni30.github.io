@@ -31,7 +31,7 @@ How Joseph Benipayo's design portfolio is built, what is on each page, and how t
 | 1 | **Nav** | JB monogram, name and title, links to Work / Thumbnails / Personal / Code / Experience / Contact, and an "Available for work" button. Stays at the top while scrolling. |
 | 2 | **Hero** | Headline, one-line intro, skill pills, and five Azzurro Meta ads. Clicking the ads opens the Azzurro case study. |
 | 3 | **Principles** | Three short design beliefs. The ← → arrows switch between them. |
-| 4 | **Brand strip** | Two rows: "Worked with" (Azzurro, Cyclelogist) and "Personal projects" (ORDRE, SLIPSTREAM, 0500, Minimal statics, CKD Predict, the Discord bot). Each logo is clickable. See section 3. |
+| 4 | **Brand strip** | Two rows: "Worked with" (Azzurro, Cyclelogist, Digiteer, RAYA Solutions, DepEd QC) and "Personal projects" (ORDRE, SLIPSTREAM, 0500, Minimal statics, CKD Predict, the Discord bot). Each logo is clickable. See section 3. |
 | 5 | **Client work** (`#work`) | Azzurro website (pink homepage, coupon book, free dinner), the colour A/B test, and the Meta ads. |
 | 5b | **YouTube thumbnails** (`#thumbnails`) | 8 thumbnails you made for The Cyclelogist (late 2021–2022, from the Dura-Ace R9200 video to the INBIKE giveaway), each linking to its video. Later channel thumbnails are not yours and are not shown. Images load straight from YouTube (`i.ytimg.com/vi/<video id>/maxresdefault.jpg`). To swap one, change the video id in both the link and the image. |
 | 6 | **Personal work** (`#personal`) | Cycling story, the three cycling brands (each links to its live website and email), and the minimal statics. |
@@ -50,7 +50,10 @@ The row under the principles is split into two groups so real work and personal 
 | Logo | What it is | Label | Clicking it opens |
 |---|---|---|---|
 | **Azzurro.** | Client: Azzurro Hotels, Sydney. Website and Meta ads. | Client · Web & Meta ads | Client work section |
-| **CYCLELOGIST** | Content shoots and photo/video editing with teammate Mags | YouTube thumbnails & editing | Thumbnails section |
+| **CYCLELOGIST** | Content shoots and photo/video editing with teammate Mags | Thumbnails & editing | Thumbnails section |
+| **Digiteer** | Junior Software Engineer (Jan 2025 – Oct 2026) | Software engineer · Rails | digiteer.digital |
+| **RAYA Solutions** | Software Engineer (Aug 2023 – May 2024) | Software engineer · ERPNext | rayasolutions.info |
+| **DepEd QC** | Software Engineer Intern, SDOQC (Sep 2022 – Mar 2023) | Intern · Front-end | depedqc.com |
 
 **Personal projects** (your own concept brands, not clients)
 
@@ -138,13 +141,13 @@ At the top of `assets/css/styles.css`:
 | `--accent` | Azzurro pink highlights | `#e8195a` |
 
 ### After changing styles.css or main.js
-Raise the `?v=7` number after `styles.css` and `main.js` in every HTML file (for example to `?v=7`). This makes returning visitors download the new version instead of an old cached copy.
+Raise the `?v=8` number after `styles.css` and `main.js` in every HTML file (for example to `?v=8`). This makes returning visitors download the new version instead of an old cached copy.
 
 ### Background grid
 The faint vertical lines fade to 18% once you scroll to Experience and Contact (`body.calm` in `styles.css`, set by `main.js`). Change `.18` to adjust.
 
 ### Turn off the animations
-In `index.html`, delete the line `<script src="assets/js/main.js?v=7" defer></script>`. The site still works; only the slider arrows, nav border and fade-ins stop.
+In `index.html`, delete the line `<script src="assets/js/main.js?v=8" defer></script>`. The site still works; only the slider arrows, nav border and fade-ins stop.
 
 ### Mark yourself as not available
 Search for `Available for work` in the HTML files and change or remove that link.
