@@ -136,8 +136,11 @@ At the top of `assets/css/styles.css`:
 | `--mute` | Small grey labels | `#8d8a83` |
 | `--accent` | Azzurro pink highlights | `#e8195a` |
 
+### After changing styles.css or main.js
+Raise the `?v=3` number after `styles.css` and `main.js` in every HTML file (for example to `?v=4`). This makes returning visitors download the new version instead of an old cached copy.
+
 ### Turn off the animations
-In `index.html`, delete the line `<script src="assets/js/main.js" defer></script>`. The site still works; only the slider arrows, nav border and fade-ins stop.
+In `index.html`, delete the line `<script src="assets/js/main.js?v=3" defer></script>`. The site still works; only the slider arrows, nav border and fade-ins stop.
 
 ### Mark yourself as not available
 Search for `Available for work` in the HTML files and change or remove that link.
