@@ -185,3 +185,9 @@ Loaded free from Google Fonts on every page:
 - [ ] Open each cycling website and email and use "Back to portfolio".
 - [ ] Open the Azzurro case study and the statics page.
 - [ ] Share the link once in a chat (Messenger, LinkedIn) to see the preview image.
+
+## Azzurro email design (Nov 2026)
+- Homepage: Client work → article 03 "Azzurro Hotels — Email design" (after Meta ads), `#email`. Previews: `assets/img/azzurro/email/*-top.jpg`.
+- Case study `work/azzurro.html#email`: 5 full-length emails (`assets/img/azzurro/email/*.jpg`, 900px wide), `.emails` grid in styles.css.
+- Emails are spec/concept work built from azzurrohotels.com content; source generator lives outside the repo (`az5/gen.py`).
+- Cache-bust bumped to `?v=9`.
